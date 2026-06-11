@@ -2,16 +2,16 @@ let numero1 = 5
 let numero2 = 10
 
 let suma = numero1 + numero2 
-console.log (numero1 + "+" numero2 + "=" + suma)
+console.log (numero1 + "+"+ numero2 + "=" + suma)
 
 let resta = numero1 - numero2 
-console.log (numero1 + "-" + numero2 "=" + resta)
+console.log (numero1 + "-" + numero2+ "=" + resta)
 
 let multiplicación = numero1 * numero2
-console.log (numero1 + "*" + numero2 "=" + multiplicación)
+console.log (numero1 + "*" + numero2+ "=" + multiplicación)
 
 let división = numero1 / numero2 
-console.log (numero1 + "/" + numero2 "=" + división)
+console.log (numero1 + "/" + numero2 +"=" + división)
 
 let nombrealumno = "benja"
 let apellidoalumno = "lopez"
@@ -32,3 +32,5 @@ console.log (pais)
 let comidafavorita = "sorrentinos de jamon y queso"
 let colorfavorito = "azul marino"
 let numerofavorito = "666"
+
+console.log ("mi comida favorita es :," + comidafavorita+ "me gusta el color:" + colorfavorito+ "y mi numero favorito es:"+ numerofavorito)
