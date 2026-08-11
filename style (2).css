@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+    color: black;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 18px;
+    color: darkblue;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 20px;
+}
