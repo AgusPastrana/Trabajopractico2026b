@@ -7,12 +7,60 @@
     <title>Trabajo Practico 9</title>
 </head>
 <body>
-    <p id="parrafo_1">ingrese 2 numeros y te dire cual es el mayor</p>
-    <input id="numero_1" type="text" placeholder="ingrese un numero">
-    <input id="numero_2" type="text" placeholder="ingrese un numero">
-    <button id="boton_1">click</button>
+    <h1>Ejercicios de Funciones en JavaScript</h1>
 
-    
+  <!-- Ejercicio 1: Número Mayor -->
+  <div class="caja" id="caja1">
+    <h2>1. Ver número mayor</h2>
+    <input type="number" id="num1_mayor" placeholder="Número 1">
+    <input type="number" id="num2_mayor" placeholder="Número 2">
+    <button onclick="obtenerMayor()">Comparar</button>
+    <p id="parrafo_mayor"></p>
+  </div>
+
+  <!-- Ejercicio 2: Número Menor -->
+  <div class="caja" id="caja2">
+    <h2>2. Ver número menor</h2>
+    <input type="number" id="num1_menor" placeholder="Número 1">
+    <input type="number" id="num2_menor" placeholder="Número 2">
+    <button onclick="obtenerMenor()">Comparar</button>
+    <p id="parrafo_menor"></p>
+  </div>
+
+  <!-- Ejercicio 3: Iguales o Diferentes -->
+  <div class="caja" id="caja3">
+    <h2>3. Verificar si son iguales o diferentes</h2>
+    <input type="number" id="num1_igual" placeholder="Número 1">
+    <input type="number" id="num2_igual" placeholder="Número 2">
+    <button onclick="compararIgualdad()">Verificar</button>
+    <p id="parrafo_igual"></p>
+  </div>
+
+  <!-- Ejercicio 4: Calcular IVA -->
+  <div class="caja" id="caja4">
+    <h2>4. Calcular IVA (21%)</h2>
+    <input type="number" id="monto_compra" placeholder="Monto de la compra">
+    <button onclick="obtenerIVA()">Calcular IVA</button>
+    <p id="parrafo_iva"></p>
+  </div>
+
+  <!-- Ejercicio 5: Saludo -->
+  <div class="caja" id="caja5">
+    <h2>5. Saludar a una persona</h2>
+    <input type="text" id="nombre_persona" placeholder="Ingresa tu nombre">
+    <button onclick="saludarPersona()">Saludar</button>
+    <p id="parrafo_saludo"></p>
+  </div>
+
+  <!-- Ejercicios 6 y 7: Modo Oscuro y Modo Claro -->
+  <div class="caja" id="caja6">
+    <h2>6 y 7. Modos de Color</h2>
+    <button onclick="activarModoOscuro()">Modo Oscuro</button>
+    <button onclick="activarModoClaro()">Modo Claro</button>
+    <p id="parrafo_modo"></p>
+  </div>
+
+  <script src="app.js"></script>
 </body>
-<script src="app.js"></script>
+
 </html>
