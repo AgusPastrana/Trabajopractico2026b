@@ -52,20 +52,16 @@ let productos = [
   console.log(productos.indexOf("Webcam"))
   console.log(productos.indexOf("Impresora"))
   
-  // Buscar "Teclado" y guardar el resultado en una variable
   let posTeclado = productos.indexOf("Teclado")
   
-  // Utilizar una condición if para determinar si el teclado está registrado
   if (posTeclado !== -1) {
     console.log("El teclado está registrado")
   } else {
     console.log("El teclado NO está registrado")
   }
   
-  // Buscar "Impresora" y guardar el resultado en otra variable
   let posImpresora = productos.indexOf("Impresora")
   
-  // Utilizar una condición if para determinar si la impresora está registrada
   if (posImpresora !== -1) {
     console.log("La impresora está registrada")
   } else {
@@ -223,4 +219,3 @@ let productos = [
   console.log(productosTienda.shift())
   console.log(productosTienda)
   console.log(productosTienda.length)
-  
